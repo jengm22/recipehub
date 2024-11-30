@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/89ebdf50-e25a-475f-b48c-6bc229310c31/resourceGroups/mahuj/providers/Microsoft.Web/sites/mbellas",
+    "appService.deploySubpath": "."
+}
