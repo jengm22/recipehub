@@ -11,7 +11,7 @@ const fileUpload = require('express-fileupload');
 require('dotenv').config();
 
 app.use(express.urlencoded({ extended: true}));
-app.use(express.static(path.join(__dirname, ('/public'))));
+app.use(express.static(path.join(__dirname, ('public'))));
 app.use(expressLayouts);
 
 app.use(cookieParser('CookingBlogSecure'));

@@ -1,6 +1,10 @@
 const CACHE_NAME = "ejs-pwa-cache-v1";
 const urlsToCache = [
-  "app.js",
+  "/",                // Home page
+  "/public/styles/main.css", // CSS file (add actual path)
+  "/public/img/logo.png", // Logo (add actual path)
+  "/public/manifest.json",   // Manifest file
+  "/app.js"           // Main JS file
 ];
 console.log(urlsToCache);
 // Install the service worker and cache resources
